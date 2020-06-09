@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+}
+#wrap{
+	font-family: Arial, "Helvetica Neue", "Hiragino Kaku Gothic ProN", Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+  margin: 0 auto;
+}
+img {
+    width: 100%;
+}
+.notice{
+	margin: 0 10px;
+}
+/* MV */
+.mv{
+}
+
+.wrap_inner{
+	margin-bottom: 30px;
+}
+
+/* footer */
+footer{
+	background: url(../image_uniq/footer_bg.jpg) repeat-x;
+	background-size: auto 100%;
+	padding: 20px 0;
+	color: #fff;
+}
+footer img{
+	max-width:230px;
+}
+footer .logo{
+	text-align: center;
+	margin-bottom: 10px;
+}
+footer ul{
+	width:70%;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 27px;
+}
+footer ul li{
+	display: inline-block;
+}
+footer ul li a{
+	color: #fff;
+}
+footer ul li:after{
+	content: "│";
+}
+footer ul li:last-child:after{
+	content: "";
+}
+footer .copy{
+	text-align: center;
+	margin-top: 10px;
+}
