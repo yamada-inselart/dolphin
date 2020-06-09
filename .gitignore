@@ -1,0 +1,9 @@
+#file ignore
+Thumbs.db
+.Ds_Store
+.gitignore
+
+#directory ignore
+.history/
+.sass-cache/
+node_modules/
